@@ -26,7 +26,7 @@
   
 ![teaser_img](images/teaser.png)
 
-# Video demo of MediSee
+## :television: Video demo of MediSee
 ![video demo of MediSee](https://github.com/Edisonhimself/MediSee/blob/main/medisee-demo.gif)
 
-# Code is coming soon
+## :v: Code is coming soon
