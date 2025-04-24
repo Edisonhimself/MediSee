@@ -7,13 +7,13 @@
   <p align="center">
     <a><strong>Qinyue Tong</strong></a><sup>1</sup>
     ·
-    <a><strong>Ziqian Lu</strong></a><sup>2</sup>
+    <a href="https://scholar.google.com/citations?user=qx1yRVEAAAAJ&hl=zh-CN"><strong>Ziqian Lu</strong></a><sup>2</sup>
     ·
     <a><strong>Jun Liu</strong></a><sup>1</sup>
     <br>
-    <a><strong>Yangming Zheng</strong></a><sup>1</sup>
+    <a href="https://person.zju.edu.cn/zymsun2002"><strong>Yangming Zheng</strong></a><sup>1</sup>
     ·
-    <a><strong>Zhe-ming Lu</strong></a><sup>1</sup>
+    <a href="https://person.zju.edu.cn/lzmhome"><strong>Zhe-ming Lu</strong></a><sup>1</sup>
     <!-- <br> -->
     <br>
     <sup>1</sup>Zhejiang University, <sup>2</sup>Zhejiang Sci-Tech University
