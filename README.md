@@ -30,3 +30,19 @@
 ![video demo of MediSee](https://github.com/Edisonhimself/MediSee/blob/main/medisee-demo.gif)
 
 ## :v: Code Is Coming Soon
+
+
+
+## Acknowledgements
+This project is developed on the codebase of [LISA](https://github.com/dvlab-research/LISA) and data from [SA-Med2D-20M Dataset](https://github.com/OpenGVLab/SAM-Med2D). We appreciate their valuable contributions! 
+
+## :love_you_gesture: Citation
+If you find our paper is helpful for your research, please consider citing:
+```BibTeX
+@article{tong2025medisee,
+  title={MediSee: Reasoning-based Pixel-level Perception in Medical Images},
+  author={Tong, Qinyue and Lu, Ziqian and Liu, Jun and Zheng, Yangming and Lu, Zheming},
+  journal={arXiv preprint arXiv:2504.11008},
+  year={2025}
+}
+```
