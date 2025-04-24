@@ -33,7 +33,7 @@
 
 
 
-## Acknowledgements
+## :clap: Acknowledgements
 This project is developed on the codebase of [LISA](https://github.com/dvlab-research/LISA) and data from [SA-Med2D-20M Dataset](https://github.com/OpenGVLab/SAM-Med2D). We appreciate their valuable contributions! 
 
 ## :love_you_gesture: Citation
