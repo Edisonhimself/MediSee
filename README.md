@@ -19,7 +19,7 @@
     <sup>1</sup>Zhejiang University, <sup>2</sup>Zhejiang Sci-Tech University
     <br>
     <div align="center">
-    <a href="https://arxiv.org/abs/2501.11515"><img src='https://img.shields.io/badge/arXiv-MediSee-red' alt='Paper PDF'></a>
+    <a href="http://arxiv.org/abs/2504.11008"><img src='https://img.shields.io/badge/arXiv-MediSee-red' alt='Paper PDF'></a>
     </div>
   </p>
 </p>
