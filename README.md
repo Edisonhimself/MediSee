@@ -24,7 +24,7 @@
   </p>
 </p>
   
-![teaser_img](assets/teaser.png)
+![teaser_img](image/teaser.png)
 
 
 
