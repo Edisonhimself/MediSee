@@ -18,6 +18,8 @@
     <br>
     <sup>1</sup>Zhejiang University, <sup>2</sup>Zhejiang Sci-Tech University
     <br>
+    🧑‍💼 <b><i>Project Leader: Prof. Zhe-ming Lu</i></b>
+    <br>
     <div align="center">
     <a href="http://arxiv.org/abs/2504.11008"><img src='https://img.shields.io/badge/arXiv-MediSee-red' alt='Paper PDF'></a>
     </div>
