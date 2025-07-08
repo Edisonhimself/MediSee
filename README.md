@@ -26,6 +26,11 @@
   
 ![teaser_img](images/teaser.png)
 
+## 📣 News
+* **[2025/7/6]**  Our **Medisee** has been accepted by ACM Multimedia 2025!
+* **[2025/4/25]**  **Video demo** :camera: is live now!
+* **[2025/4/24]**  We’ve uploaded our paper *MediSee: Reasoning-based Pixel-level Perception in Medical Images* to arXiv and set up this repository! Welcome to **watch** 👀 this repository for the latest updates.
+  
 ## :camera: Video Demo 
 ![video demo of MediSee](https://github.com/Edisonhimself/MediSee/blob/main/medisee-demo.gif)
 
