@@ -3,7 +3,7 @@
   <h2 align="center">
   MediSee: Reasoning-based Pixel-level Perception in Medical Images
 
-  (ACM Multimedia 2025🎉)
+  (ACM Multimedia 2025)
 
   </h2>
   <p align="center">
