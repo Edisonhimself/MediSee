@@ -39,7 +39,7 @@
 ![video demo of MediSee](https://github.com/Edisonhimself/MediSee/blob/main/medisee-demo.gif)
 
 ## :v: Code Is Coming Soon
-
+The code is currently being prepared and will be released after internal review and cleanup.
 
 
 ## :clap: Acknowledgements
