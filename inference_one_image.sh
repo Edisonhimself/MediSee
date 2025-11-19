@@ -12,4 +12,5 @@ CUDA_VISIBLE_DEVICES=0 deepspeed --master_port=24998 ./inference_one_image.py \
 --sample_rates="7,2" \
 --exp_name="xxxxxx" \
 --conv_type="mistral_instruct" \
+--weight="" \
 --eval_only 
