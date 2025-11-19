@@ -24,7 +24,7 @@
     <br>
     <div align="center">
     <a href="http://arxiv.org/abs/2504.11008"><img src='https://img.shields.io/badge/arXiv-MediSee-red' alt='Paper PDF'></a>
-    <a href='https://huggingface.co/models/Carryyy/MediSee'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-MediSee-yellow?color=yellow'></a>
+    <a href='https://huggingface.co/Carryyy/MediSee/tree/main'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-MediSee-yellow?color=yellow'></a>
     </div>
   </p>
 </p>
