@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 deepspeed --master_port=24998 ./evaluate.py \
+--epochs=10 \
+--steps_per_epoch=150 \
+--grad_accumulation_steps=10 \
+--batch_size=15 \
+--version="llava-med-v1.5-mistral-7b_path" \
+--dataset_dir='' \
+--vision_pretrained="medsam_vit_b_path" \
+--dataset="seg_med_2d||reasoning_med_seg" \
+--seg_med_2d_data="SAMed2D" \
+--reasoning_med_seg_data="ReasoningMedSeg" \
+--sample_rates="7,2" \
+--exp_name="xxxxxxx" \
+--conv_type="mistral_instruct" 
