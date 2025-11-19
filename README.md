@@ -38,8 +38,122 @@
 ## :camera: Video Demo 
 ![video demo of MediSee](https://github.com/Edisonhimself/MediSee/blob/main/medisee-demo.gif)
 
-## :v: Code Is Coming Soon
-The code is currently being prepared and will be released after internal review and cleanup.
+## Getting Started and Installation
+
+**1. Prepare the code and the environment**
+
+Git clone our repository, creating a python environment and activate it via the following command
+
+```bash
+git clone https://github.com/Edisonhimself/MediSee.git
+cd MediSee
+conda env create -f environment.yml
+conda activate medisee
+```
+
+
+**2. Prepare the pretrained MLLM weights**
+
+**MediSee** is based on llava-med-v1.5-mistral-7b. Please first download the MLLM weights from the following huggingface space:
+[Download](https://huggingface.co/microsoft/llava-med-v1.5-mistral-7b/tree/main).
+
+
+**3. Prepare the pretrained MedSAM weights**
+
+**MediSee** uses MedSAM as the segmentation head. Please first download the version of medsam_vit_b from the following space:
+[Download](https://drive.google.com/drive/folders/1ETWmi4AiniJeWOt6HAsYgTjYv_fkgzoN?usp=drive_link).
+
+
+**4. Prepare the pretrained CLIP weights**
+
+Due to frequent disconnections from Hugging Face, we recommend manually downloading the clip-vit-large-patch14-336 model from the following huggingface space:
+[Download](https://huggingface.co/openai/clip-vit-large-patch14-336).
+
+
+**5. Prepare our MediSee weights**
+
+Download the MediSee pretrained model checkpoints at [Download](https://huggingface.co/Carryyy/MediSee/tree/main).
+
+
+
+## Quick Start for the Medisee Demo
+
+To facilitate a quick hands-on experience with Medisee, we provide a demo script for rapid start-up.
+
+Please set the image you want to test **[here](quick_demo.py#L139)** and set your query **[here](quick_demo.py#L140)**.
+Next, fill in the paths of the downloaded models in the script in order. Specifically:  
+- Put the **path of llava-med** **[here](quick_demo.sh#L6)**  
+- Put the **path of medsam** **[here](quick_demo.sh#L8)**  
+- Put the **path of clip** **[here](quick_demo.sh#L58)**  
+- Put the **path of MediSee** **[here](quick_demo.sh#L15)**
+  
+Finally, run:
+```bash
+bash quick_demo.sh
+```
+
+
+## Evaluate MediSee
+
+We provide a test script that supports batch evaluation of MediSee’s performance.
+
+First, following the instructions in the previous section, fill in the paths of all pretrained weights in order in both `evaluate.py` and `evaluate.sh`.
+
+To run batch evaluation or tests in MediSee, you need to prepare a `.jsonl` test file.  
+Each line in the file represents one test sample and should follow the format below:
+
+```
+{"image": "", "mask": "", "class_text": "", "long": "", "short": "", "bbox": []}
+{"image": "", "mask": "", "class_text": "", "long": "", "short": "", "bbox": []}
+```
+
+Then, fill in the path to your `.jsonl` test file in `utils/dataset.py` at **line 948**.
+
+Finally, run:
+```bash
+bash evaluate.sh
+```
+
+We also provide a script for rapid testing on a single image, allowing you to quickly verify MediSee's performance without running a full batch evaluation.
+Specifically, set your input image in `inference_one_image.py` at **[line 141](inference_one_image.py#L141)**, the ground-truth mask at **[line 142](inference_one_image.py#L142)**, your query at **[line 143](inference_one_image.py#L143)**, and the ground-truth bounding box at **[line 144](inference_one_image.py#L144)**.
+
+Finally, run:
+```bash
+bash inference_one_image.sh
+```
+
+## Train MediSee
+You can use our training code to adapt MediSee to your own data.
+
+First, similar to the operations in the previous section, you need to fill in the corresponding model weight paths in both `train_ds.py` and `train.sh`.
+
+Next, you need to construct data with a structure similar to the example below, and fill in your own data paths in `utils/seg_med_2d_dataset.py` at **line 22**:
+
+```python
+{
+    "image_path_1": {
+        "mask_path_1": "class_1",
+        "mask_path_2": "class_2"
+    },
+    "image_path_2": {
+        "mask_path_3": "class_3",
+        "mask_path_4": "class_4"
+    }
+}
+```
+Finally, run:
+```bash
+train.sh
+```
+
+
+## Supplementary Content of the Paper
+Here, we present some of the prompts mentioned in the paper to provide additional inspiration and reference for further research.
+![Prompt1](prompts/Prompt1.png)
+![Prompt2](prompts/Prompt2.png)
+![Prompt3](prompts/Prompt3.png)
+![Prompt4](prompts/Prompt4.png)
+
 
 
 ## :clap: Acknowledgements
