@@ -12,5 +12,5 @@ CUDA_VISIBLE_DEVICES=0 deepspeed --master_port=24998 ./quick_demo.py \
 --sample_rates="7,2" \
 --exp_name="xxxxxx" \
 --conv_type="mistral_instruct" \
---weight=" \
+--weight="" \
 --eval_only 
