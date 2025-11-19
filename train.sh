@@ -11,4 +11,5 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 deepspeed --master_port=24998 ./train_ds.py \
 --reasoning_med_seg_data="ReasoningMedSeg" \
 --sample_rates="7,2" \
 --exp_name="xxxxxxxx" \
---conv_type="mistral_instruct" 
+--conv_type="mistral_instruct" \
+--weight=""
