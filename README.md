@@ -81,7 +81,7 @@ Download the MediSee pretrained model checkpoints at [Download](https://huggingf
 
 
 
-## Quick Start for the Medisee Demo
+## Quick Start for the MediSee Demo
 
 To facilitate a quick hands-on experience with Medisee, we provide a demo script for rapid start-up.
 
