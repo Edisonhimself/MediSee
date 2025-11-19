@@ -31,6 +31,10 @@
 ![teaser_img](images/teaser.png)
 
 ## 📣 News
+* **[2025/11/18]** We released the **Training Code** of MediSee and GPT prompts used in our paper💡.
+* **[2025/11/16]** We released the 🔍**Evaluation Code**🔍 to help users conveniently test MediSee.
+* **[2025/11/16]**  We released the MediSee 🔥**Model Weights**🔥.
+* **[2025/11/6]**  We released the ✨**Demo Code**✨ of MediSee. 
 * **[2025/7/6]**  Our **MediSee** has been accepted by ***ACM Multimedia 2025*** :tada::tada::tada:!
 * **[2025/4/25]**  **Video demo** :camera: is live now!
 * **[2025/4/24]**  We’ve uploaded our paper *MediSee: Reasoning-based Pixel-level Perception in Medical Images* to arXiv and set up this repository! Welcome to **watch** 👀 this repository for the latest updates.
